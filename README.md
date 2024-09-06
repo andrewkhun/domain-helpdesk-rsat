@@ -90,6 +90,7 @@ Once the password is set, sign out of the User account and login using our new A
 
 Now that is over, we can move onto creating a helpdesk user account!
 
+
 ## Create a helpdesk user by copying the Administrator account
 
 If you have not already, start up with Windows Server 2022 VM and log in. Open up Active Directory Users and Computers and head into the Users folder. Right-click on Administrator and click copy. Name the new user helpdesk and set a password. Once set, hit finish.
@@ -109,3 +110,6 @@ To explain why we are doing this, let's compare the groups that our newly create
 If we look below we can see that the helpdesk user is a part of a lot more groups than the helpdesk2 user, and the reason is because we copied the initial Administrator user. By doing this we don't need to add every single group one by one, saving us time. If the helpdesk is part of a group that we don't need it to be in, we can just remove the group. 
 
 <img src="https://i.imgur.com/BNNr40U.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+
+## Install RSAT tools on the Windows 10 Lab VM
