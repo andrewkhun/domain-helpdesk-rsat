@@ -36,5 +36,5 @@ After fully installing Windows, the VM will restart at the end of the process. A
 
 <img src="https://i.imgur.com/BbcPQ2W.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/IYVFaNK.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/IYVFaNK.png" height="30%" width="30%" alt="VirtualBox downloads"/>
 
