@@ -38,3 +38,31 @@ After fully installing Windows, the VM will restart at the end of the process. A
 
 <img src="https://i.imgur.com/IYVFaNK.png" height="30%" width="30%" alt="VirtualBox downloads"/>
 
+Complete the Windows 10 desktop setup by selecting:
+- Set up for personal use
+- Offline Account
+- Limited Experience
+- Typing in "User" for the PC
+- Leave the password blank and click "Next"
+- Accept to Recent browsing data
+- Selecting "No" for all "privacy settings for your device"
+- Skipping the "Customize your experience"
+- And finally "Not Now" for Cortana
+
+<img src="https://i.imgur.com/8ugy1cm.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/YepzMOb.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/cWwHNOi.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/CROKPoS.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/N0n84Wu.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/z7wNtv1.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/uMlufsZ.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/pVgnOzZ.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/WNDDmQI.png" height="70%" width="70%" alt="VirtualBox downloads"/>
