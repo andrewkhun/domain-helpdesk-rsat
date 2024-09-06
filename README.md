@@ -1,6 +1,6 @@
 # Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
 
-Our objectives are as follows:
+Our high-level objectives are as follows:
 - Create a Windows 10 machine and join it to our domain
 - Create a helpdesk user to imitate the role of a help desk role on the domain
 - Provide said user RSAT tools to provide services from the Windows 10 machine
