@@ -113,3 +113,13 @@ If we look below we can see that the helpdesk user is a part of a lot more group
 
 
 ## Install RSAT tools on the Windows 10 Lab VM
+
+RSAT (Remote Server Administration Tools) is a set of tools from Microsoft that allows IT administrators to remotely manage Windows servers and services from their own computers, without having to be physically at the server. It includes tools for managing things like Active Directory, DNS, DHCP, Group Policy, and more. RSAT helps system admins handle tasks efficiently from their workstations.
+
+In order to install RSAT tools, we have to go to Apps & Features and then Optional Features. Click on Add a Feature and search RSAT in the searchbar.
+
+<img src="https://i.imgur.com/tOOtgxZ.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/U1vjMow.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/lK6oZnO.png" height="30%" width="30%" alt="VirtualBox downloads"/>
