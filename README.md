@@ -1,4 +1,4 @@
-# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
+![Screenshot 2024-09-05 160713](https://github.com/user-attachments/assets/2d2ca4e8-1c51-4c62-9d91-18bbdf39685e)# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
 
 Our high-level objectives are as follows:
 - Create a Windows 10 machine and enable local Administrator account
@@ -123,3 +123,7 @@ In order to install RSAT tools, we have to go to Apps & Features and then Option
 <img src="https://i.imgur.com/U1vjMow.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
 <img src="https://i.imgur.com/lK6oZnO.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+The tools we will be installing are these 7 as shown below. This should give us all the tools our helpdesk needs to accomplish most tasks.
+
+<img src="https://i.imgur.com/51B7GhO.png" height="50%" width="50%" alt="VirtualBox downloads"/>
