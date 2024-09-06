@@ -66,3 +66,25 @@ Complete the Windows 10 desktop setup by selecting:
 <img src="https://i.imgur.com/pVgnOzZ.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
 <img src="https://i.imgur.com/WNDDmQI.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once you are logged in, open up File Explorer and right click on "This PC" then select "Manage". We will be enabling the local Administrator account since we are currently logged into the Windows 10 VM as a regular user. We want to get rid of this basic User account as we want this VM to be used by our Help desk role. 
+
+Go to Local Users and Groups and then Users. Right-click Administrator and then Properties. Uncheck the "Account is Disabled" option then click Apply and OK. Right-Click the Administrator account once more and set a password for the Administrator. 
+
+<img src="https://i.imgur.com/AQtyNz1.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/0yTUDRw.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/m9LaBSi.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/ZfACVM6.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once the password is set, sign out of the User account and login using our new Administrator account. Once logged in, head back to Computer management and delete the "User" account as we no longer need it.
+
+<img src="https://i.imgur.com/xvKDglx.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/zD749Uk.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/Vx8GQxP.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+
