@@ -1,9 +1,10 @@
 # Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
 
 Our high-level objectives are as follows:
-- Create a Windows 10 machine and join it to our domain
-- Create a helpdesk user to imitate the role of a help desk role on the domain
-- Provide said user RSAT tools to provide services from the Windows 10 machine
+- Create a Windows 10 machine and enable local Administrator account
+- Create a helpdesk user by copying the Administrator account
+- Install RSAT tools onto the Windows 10 VM to allow helpdesk to provide services from VM
+- Change Server 2022 and Windows 10 Lab VM IP addresses to static in order to join both to the domain group
 
 Let's get started!
 
@@ -87,4 +88,24 @@ Once the password is set, sign out of the User account and login using our new A
 
 <img src="https://i.imgur.com/Vx8GQxP.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
+Now that is over, we can move onto creating a helpdesk user account!
 
+## Create a helpdesk user by copying the Administrator account
+
+If you have not already, start up with Windows Server 2022 VM and log in. Open up Active Directory Users and Computers and head into the Users folder. Right-click on Administrator and click copy. Name the new user helpdesk and set a password. Once set, hit finish.
+
+<img src="https://i.imgur.com/6KEy5KW.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/veWdURa.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/bgkMsZN.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/pqEa75i.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/JBko6mc.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+To explain why we are doing this, let's compare the groups that our newly created helpdesk user is in compared to a helpdesk2 user created by just doing "Create New User". 
+
+If we look below we can see that the helpdesk user is a part of a lot more groups than the helpdesk2 user, and the reason is because we copied the initial Administrator user. By doing this we don't need to add every single group one by one, saving us time. If the helpdesk is part of a group that we don't need it to be in, we can just remove the group. 
+
+<img src="https://i.imgur.com/BNNr40U.png" height="70%" width="70%" alt="VirtualBox downloads"/>
