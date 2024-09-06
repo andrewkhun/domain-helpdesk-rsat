@@ -72,21 +72,21 @@ Once you are logged in, open up File Explorer and right click on "This PC" then 
 
 Go to Local Users and Groups and then Users. Right-click Administrator and then Properties. Uncheck the "Account is Disabled" option then click Apply and OK. Right-Click the Administrator account once more and set a password for the Administrator. 
 
-<img src="https://i.imgur.com/AQtyNz1.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/AQtyNz1.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/0yTUDRw.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/0yTUDRw.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/m9LaBSi.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/m9LaBSi.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/ZfACVM6.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/ZfACVM6.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
 Once the password is set, sign out of the User account and login using our new Administrator account. Once logged in, head back to Computer management and delete the "User" account as we no longer need it.
 
-<img src="https://i.imgur.com/xvKDglx.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/xvKDglx.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
 <img src="https://i.imgur.com/zD749Uk.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/Vx8GQxP.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/Vx8GQxP.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
 Now that is over, we can move onto creating a helpdesk user account!
 
@@ -95,15 +95,15 @@ Now that is over, we can move onto creating a helpdesk user account!
 
 If you have not already, start up with Windows Server 2022 VM and log in. Open up Active Directory Users and Computers and head into the Users folder. Right-click on Administrator and click copy. Name the new user helpdesk and set a password. Once set, hit finish.
 
-<img src="https://i.imgur.com/6KEy5KW.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/6KEy5KW.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/veWdURa.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/veWdURa.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/bgkMsZN.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/bgkMsZN.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/pqEa75i.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/pqEa75i.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/JBko6mc.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/JBko6mc.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
 To explain why we are doing this, let's compare the groups that our newly created helpdesk user is in compared to a helpdesk2 user created by just doing "Create New User". 
 
@@ -118,8 +118,8 @@ RSAT (Remote Server Administration Tools) is a set of tools from Microsoft that 
 
 In order to install RSAT tools, we have to go to Apps & Features and then Optional Features. Click on Add a Feature and search RSAT in the searchbar.
 
-<img src="https://i.imgur.com/tOOtgxZ.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/tOOtgxZ.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/U1vjMow.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/U1vjMow.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
-<img src="https://i.imgur.com/lK6oZnO.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/lK6oZnO.png" height="50%" width="50%" alt="VirtualBox downloads"/>
