@@ -1,4 +1,4 @@
-![Screenshot 2024-09-05 160713](https://github.com/user-attachments/assets/2d2ca4e8-1c51-4c62-9d91-18bbdf39685e)# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
+# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
 
 Our high-level objectives are as follows:
 - Create a Windows 10 machine and enable local Administrator account
@@ -127,3 +127,18 @@ In order to install RSAT tools, we have to go to Apps & Features and then Option
 The tools we will be installing are these 7 as shown below. This should give us all the tools our helpdesk needs to accomplish most tasks.
 
 <img src="https://i.imgur.com/51B7GhO.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+While those are installing let's move onto our next task of setting up our static IP addresses for the domain!
+
+
+## Static IP addresses for Windows Server and Windows 10 Lab
+
+We want to create a Local Area Network so that the Server and VM can communicate with one another. On the Windows Server, go into the Network Settings and click "Change Adapter Options". 
+
+Once there right-click the Ethernet adapter and select Properties. Click on Internet Protocol Version 4 (TCP/IPv4) and then click Properties once more. 
+
+<img src="https://i.imgur.com/hvYGvvT.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/mzmoFbp.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/zi99IAo.png" height="50%" width="50%" alt="VirtualBox downloads"/>
