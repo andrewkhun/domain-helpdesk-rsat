@@ -1,4 +1,4 @@
-# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
+![image](https://github.com/user-attachments/assets/ed56ccd1-2638-4718-af70-9debe71f0194)# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
 
 Our high-level objectives are as follows:
 - Create a Windows 10 machine and enable local Administrator account
@@ -176,4 +176,14 @@ A prompt will appear to enter the name and password of an administrator for perm
 If we quickly switch back to our Windows Server 2022 VM, we can confirm that Desktop1 has joined the domain through Active Directory Users and Computers.
 
 <img src="https://i.imgur.com/c4MPpbO.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+Now we can finally log in to our Desktop1 with the helpdesk user we created. Head back to the Windows 10 Lab VM, and sign out of Administrator. To sign into helpdesk into our domain, select Other User at the lock screen and enter the helpdesk username and password.
+
+<img src="https://imgur.com/twtHR2O.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once logged in, we can head to the start menu and see that we have all of our RSAT tools at the ready. 
+
+<img src="https://i.imgur.com/pChHcfi.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+Congratulations! Through this lab we successfully created a new Windows 10 VM, installed RSAT tools, created a helpdesk user, created a domain, and added a client to that domain! With this we now have a server and a client with a helpdesk user ready to administer services through Active Directory and other RSAT tools!
 
