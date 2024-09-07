@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ed56ccd1-2638-4718-af70-9debe71f0194)# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
+# Joining a PC to a Domain, Creating a Helpdesk User, and RSAT Tools
 
 Our high-level objectives are as follows:
 - Create a Windows 10 machine and enable local Administrator account
