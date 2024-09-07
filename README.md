@@ -167,4 +167,13 @@ Head over to the System Properties of the computer and select change name. We wi
 
 <img src="https://i.imgur.com/qvjIQCM.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
+A prompt will appear to enter the name and password of an administrator for permission to join the domain. Once the username and password has been entered properly, the desktop will be successfully added to the domain.
+
+<img src="https://i.imgur.com/LzeKkGx.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/cw56K5g.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+If we quickly switch back to our Windows Server 2022 VM, we can confirm that Desktop1 has joined the domain through Active Directory Users and Computers.
+
+<img src="https://i.imgur.com/c4MPpbO.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
