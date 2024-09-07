@@ -142,3 +142,29 @@ Once there right-click the Ethernet adapter and select Properties. Click on Inte
 <img src="https://i.imgur.com/mzmoFbp.png" height="50%" width="50%" alt="VirtualBox downloads"/>
 
 <img src="https://i.imgur.com/zi99IAo.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+After selecting properties, select "Use the Following IP address" and input the following. This will allow us to statically set the IP address of the Windows Server 2022 and we will soon do the same for the Windows 10 Lab VM.
+
+<img src="https://i.imgur.com/oYRkH82.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+Click OK when complete. Next go to the top of the VM window go to Devices, Network and select Network Settings. We need to change the adapter to Host-only so that we can just use the connections between the host machines (Windows Server 2022 and Windows 10 Lab), as the adapter was previously using a bridged connection to our local host machine to connect to the internet. Click OK when finished.
+
+<img src="https://i.imgur.com/46xKMrt.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/7NSGa5L.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+Once finished click OK to confirm the setting change. Next repeat the steps for the Windows 10 machine. We need to change its IP address to static and then change the Adapter settings as well. Input the following into the Windows 10 IPv4 settings and Click OK to continue. Make sure to also change the VM adapter settings to Host only as well.
+
+<img src="https://i.imgur.com/mdcJ34S.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once the settings are complete, we can open the command prompt on the Windows 10 lab VM, and attempt to ping the Windows 2022 server IP address. If everything was configured correctly, we should be able to get a response since they are both connected to the same virtual network.
+
+<img src="https://i.imgur.com/YT8JwkS.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+We have a connection! Our next step is to finally change the name of the Windows 10 Lab desktop to something simpler, and then finally join it to the domain.
+
+Head over to the System Properties of the computer and select change name. We will be naming the computer "Desktop1" and adding it to the domain we created earlier "mydomain.com". Click OK when finished.
+
+<img src="https://i.imgur.com/qvjIQCM.png" height="50%" width="50%" alt="VirtualBox downloads"/>
+
+
